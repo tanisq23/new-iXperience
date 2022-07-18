@@ -20,36 +20,34 @@
           <div class="p-4">
             <hr />
           </div>
-          <div id="explanation" ></div>
+          <div id="explanation" class="mb-5"></div>
           <p></p>
           <hr />
-          <p></p>
-          <p></p>
-          <p></p>
-            <form id="form">
-              <div class="input-group mb-3">
-                <input
-                  id="guess-input"
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter guess here"
-                >
+
+          <form id="form">
+            <div class="input-group mb-3">
+              <input
+                id="guess-input"
+                type="text"
+                class="form-control"
+                placeholder="Enter guess here"
+              />
             </div>
-                <div class="d-grid gap-2">
-                    <button class="btn btn-primary" type="submit">Submit</button>
-                </div>
-              <hr />
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+            <hr />
 
             <div class="d-grid gap-2">
-            <button class="btn btn-secondary" type="button">Show Hint</button>
+              <button class="btn btn-secondary" id="hintButton" type="button">
+                Show Hint
+              </button>
             </div>
+          </form>
 
-            </form>
-
-            <div id = "hint" class = "mt-4"></div>
-            <p></p>
-            <div id = "result" class = "mt-4"></div>
-          
+          <div id="hint" class="mt-4"></div>
+          <p></p>
+          <div id="result" class="alert"></div>
         </div>
       </div>
     </div>

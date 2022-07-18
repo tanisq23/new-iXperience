@@ -1,37 +1,100 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    </head>
-    <body>
-        <h1>
-            <div class="p-3 mb-2 bg-dark text-white">Hi, my name is Tanisq Mallpani!</div>
-        </h1>
-        <h3> 
-            <div class="p-3 mb-2 bg-dark text-white">I'm participating in the iXperience software engineering program this summer!</div>
-        </h3>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction Page with Bootstrap</title>
 
-        <div class="card" style="width: 18rem;">
-            <img src="profpic.jpg" class="card-img-top" alt="Me in a suit">
-            <div class="card-body">
-              <p class="card-text">I entered Boston University as a business major. However, after taking a couple of computer science classes
-                I realized my interest in the subject and changed majors. 
-              </p>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="p-5 text-white bg-dark text-center">
+        <h1>Hi, my name is Tanisq Mallpani!</h1>
+
+        <p>
+          I'm participating in the iXperience software engineering program this
+          summer!
+        </p>
+      </div>
+      <div class="p-5 bg-light">
+        <div class="text-center mb-4">
+          <h3>A little more information about me:</h3>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            I am from Hyderabad, India, where I am currently located for the
+            duration of this program. I have grown up here and have lived here
+            for most of my life. I absolutely love the vibe of the city and its
+            friendly people!
+          </div>
+          <div class="col-6">
+            I am a sophomore studying computer science at Boston University.
+            Although I originally entered college as a business major, I made
+            the switch to computer science after taking a couple of classes and
+            developing an interest in it.
+          </div>
+        </div>
+      </div>
+      <div class="p-5 bg-dark">
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="tennis.jpg"
+                class="card-img-top"
+                alt="Me playing tennis"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Me playing tennis</h5>
+                <p class="card-text">
+                  I have been playing tennis since I was 5 years old. I spent
+                  the last 3 years of high school at a tennis academy in France,
+                  and eventually got recruited to play Division 1 tennis for
+                  Boston University, which I did for my freshman year.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="tennis.JPG" class="card-img-top" alt="Me playing tennis">
-            <div class="card-body">
-              <p class="card-text">I have been playing tennis since I was 4. After training at a tennis academy in France for 3 years,
-                I was recruited to BU's Division 1 Tennis Team, on which I played for a year. 
-              </p>
+          <div class="col-4">
+            <div class="card">
+              <img src="profpic.jpg" class="card-img-top" alt="Me in a suit" />
+              <div class="card-body">
+                <h5 class="card-title">Me in a suit</h5>
+                <p class="card-text">
+                  Professionally at BU, I am the Director of Operations at the
+                  Business and Technology club. I have also been involoved in
+                  the BU Consulting Group.
+                </p>
+              </div>
             </div>
           </div>
-        <script src="" async defer></script>
-    </body>
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="family1.jpeg"
+                class="card-img-top"
+                alt="Me with my family"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Me with my family</h5>
+                <p class="card-text">
+                  This is a photo of me and my family on a recent trip. My
+                  brother is 16 and also aspires to study in the US.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
