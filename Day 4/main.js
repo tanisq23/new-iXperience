@@ -18,6 +18,8 @@ const guessInput = document.getElementById('guess-input')
 
 const movieIndex = Math.floor(Math.random() * movies.length);
 
+const button = document.getElementById('hintButton')
+
 explanation.innerHTML = movies[movieIndex].explanation;
 
 form.addEventListener('submit', (event) => {
@@ -35,8 +37,9 @@ form.addEventListener('submit', (event) => {
 });
 
 
-form.addEventListener('button', (event) => {
+button.addEventListener('click', (event) => {
     event.preventDefault();
-    hint.InnerHTML = movies[movieIndex].hint;
+    hint.innerHTML = movies[movieIndex].hint;
+    console.log(movies[movieIndex].hint);
 });
 
